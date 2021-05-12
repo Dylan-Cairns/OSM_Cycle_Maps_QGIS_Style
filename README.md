@@ -112,4 +112,8 @@ The data in Geofabrik only has the default language. If you're making maps for C
 - NOTE: The maptiler QGIS plugin is still a work in progress, and it seems it's not possible to control the size of the font on the labels. Luckily the sizing is reasonable as is. I can't seem to get road names to show up though.
 - From the settings on maptiler it seems getting Chinese + English labels is an option, but the language display formatting is wierd and I haven't had much luck.
 
+### To do
+All of the place names (Village, Town, City, etc) are currently the same size. That doesn't bother me, but you can add rule based labelling if you like.
+Select the places layer, properties -> labels, change the bar 'single labels' to 'rule based labelling' and create a new rule for each type of place, using "fclass" = 'Village' and so on for the labelling rules. You can refer to the [Geofabrik documentation](https://download.geofabrik.de/osm-data-in-gis-formats-free.pdf) as needed.
+
 Happy mapping!
