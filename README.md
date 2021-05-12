@@ -108,4 +108,5 @@ There are built in ways to add points directly in QGIS but I found them overly c
 The data in Geofabrik only has the default language. If you're making maps for China, that's Chinese. If you want to add pinyin subtitles:
 
 - add the maptiler topo map same as before, but don't get rid of the 'Maptiler planet' layer. Download and apply the maptiler stylesheet from this website.
+- open the 'roads' layer, go to the properties -> labels, and disable the labels.
 - NOTE: The maptiler QGIS plugin is still a work in progress, and it seems it's not possible to control the size of the font on the labels. Luckily the sizing is reasonable as is. I can't seem to get road names to show up though.
