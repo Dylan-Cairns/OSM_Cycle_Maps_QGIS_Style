@@ -110,5 +110,6 @@ The data in Geofabrik only has the default language. If you're making maps for C
 - add the maptiler topo map same as before, but don't get rid of the 'Maptiler planet' layer. Download and apply the maptiler stylesheet from this website.
 - open the 'roads' layer, go to the properties -> labels, and disable the labels.
 - NOTE: The maptiler QGIS plugin is still a work in progress, and it seems it's not possible to control the size of the font on the labels. Luckily the sizing is reasonable as is. I can't seem to get road names to show up though.
+- From the settings on maptiler it seems getting Chinese + English labels is an option, but the language display formatting is wierd and I haven't had much luck.
 
 Happy mapping!
