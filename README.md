@@ -1,6 +1,6 @@
 # OSM Cycle Map style QGIS stylesheets
 
-This is stylesheets and instructions on how to use OSM data courtesy of Geofabrik to create an outdoor hiking map similar in style to OSM Cycle Map:
+This is stylesheets and instructions on how to use OSM data courtesy of Geofabrik to create an outdoor hiking map similar in style to OSM Cycle Map with the following features:
 
 - Contours
 - Hillshading
