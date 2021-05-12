@@ -18,7 +18,7 @@ Screenshot of PDF created using these stylesheets:
 
 ![Screenshot 2](/screenshots/Mymap.png)
 
-Hillshades <a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>
+<sub>Hillshades <a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a></sub>
 
 The stylesheets are based on [this](https://github.com/charleyglynn/OSM-Shapefile-QGIS-stylesheets) project. They are licensed under [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/) so you are free to use these stylesheets under the same terms.
 
