@@ -1,6 +1,6 @@
 # OSM Cycle Map style QGIS stylesheets
 
-This is stylesheets and instructions on how to use OSM data courtesy of Geofabrik to create an outdoor hiking map similar in style to OSM Cycle Map with the following features:
+This is stylesheets and instructions on how to use OSM data (courtesy of Geofabrik) to create an outdoor hiking map similar in style to OSM Cycle Map with the following features:
 
 - Contours
 - Hillshading
@@ -54,7 +54,7 @@ Here are instructions on how to create an OSM Cycle Map style map from scratch i
 
 ### 4. Add hillshading
 
-While it's possible to create hillshades from SRTM data directly, the process seems to be complex and I haven't had much luck. If anyone can provide simple instructions on how to create nice looking hillshading from SRTM data from directly within QGIS, please let me know.
+While it's possible to create hillshades from SRTM data directly, the process seems to be complex and I haven't had much luck creating nice looking hillshades. If anyone can provide simple instructions on how to create attractive hillshading from SRTM data from directly within QGIS, please let me know.
 
 In the mean time, the best source I've found is the hillshading layer from the maptiler topo style.
 
@@ -79,8 +79,9 @@ Go to project -> 'save as' and save this project as a template. You will use thi
 
 ### 6. Add contour lines
 
-This is the last step because this step needs to be done for each of our maps individually.
+This is the last step because this step needs to be done for each map project individually.
 
+- Open the template you created earlier, and save a copy to be the base of this new map project.
 - Zoom to the area where you want to make a map of. Make sure anything you want to be included in the map is on the screen
 - Go to the plugin manager and install 'SRTM downloader'
 - After downloading, go to the top menu and plugins -> SRTM downloader -> click the button 'Set canvas extent' -> click download
@@ -110,10 +111,10 @@ The data in Geofabrik only has the default language. If you're making maps for C
 - add the maptiler topo map same as before, but don't get rid of the 'Maptiler planet' layer. Download and apply the maptiler stylesheet from this website.
 - open the 'roads' layer, go to the properties -> labels, and disable the labels.
 - NOTE: The maptiler QGIS plugin is still a work in progress, and it seems it's not possible to control the size of the font on the labels. Luckily the sizing is reasonable as is. I can't seem to get road names to show up though.
-- From the settings on maptiler it seems getting Chinese + English labels is an option, but the language display formatting is wierd and I haven't had much luck.
+- From the settings on maptiler it seems getting Chinese + English labels is an option, but the language display formatting is wierd and you'll have to play with the matching rules and create a new stylesheet.
 
 ### To do
-All of the place names (Village, Town, City, etc) are currently the same size. That doesn't bother me, but you can add rule based labelling if you like.
+All of the place names (Village, Town, City, etc) are currently the same size. That doesn't bother me, but you can add rule based labelling if you like:
 Select the places layer, properties -> labels, change the bar 'single labels' to 'rule based labelling' and create a new rule for each type of place, using "fclass" = 'Village' and so on for the labelling rules. You can refer to the [Geofabrik documentation](https://download.geofabrik.de/osm-data-in-gis-formats-free.pdf) as needed.
 
 Happy mapping!
