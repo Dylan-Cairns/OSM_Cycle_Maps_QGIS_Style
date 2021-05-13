@@ -49,7 +49,7 @@ Here are instructions on how to create an OSM Cycle Map style map from scratch i
 - Download all of the QML files from this website and place them in the folder you created earlier.
 - For each layer which is now in the map, right click on the map, select properties, then at the bottom of the window select style -> load style -> click ... and browse to the stylesheet with the same name as the layer.
 - NOTE: if you try and add the stylesheet for pois_a_free you will get an error. That's because we need to process that layer first. (Geofabrik folks saved shelter info in this area layer, we have to convert it to points)
-- Right click on the pois_a_free layer. Now from the top menu select vector -> Geometry tools -> centroids -> run -> close. You will now have a new layer named centroids. Click on the small icon that appears in the menu next to the layer, and select make layer permanent. choose a filename and save the file in the same folder as the rest of the map data.
+- Click on the pois_a_free layer. Now from the top menu select vector -> Geometry tools -> centroids -> run -> close. You will now have a new layer named centroids. Click on the small icon that appears in the menu next to the layer, and select make layer permanent. choose a filename and save the file in the same folder as the rest of the map data.
 - Now you can apply the stylesheet for the pois_a_free layer to the newly created 'centroids' layer. You can also delete the original pois_a_free layer, we are done with it.
 
 ### 4. Add hillshading
