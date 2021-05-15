@@ -97,7 +97,6 @@ This is the last step because this step needs to be done for each map project in
 
 **Adding GPX tracks to the map**
 
-- Install the gps tools plugin
 - From the top menu select vector -> gps tools -> browse to the GPX or KML file that has your tracks or waypoints
 
 **Adding custom points or place names to maps**
